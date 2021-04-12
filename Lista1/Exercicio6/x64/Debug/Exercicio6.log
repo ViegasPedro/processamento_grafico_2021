@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\Exercicio6\Shader.h(43,40): warning C4101: 'e': unreferenced local variable
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Exercicio6.vcxproj -> C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\x64\Debug\Exercicio6.exe

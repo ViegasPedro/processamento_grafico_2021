@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\Exercicio7\Source.cpp(215,2): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  Exercicio7.vcxproj -> C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\x64\Debug\Exercicio7.exe
