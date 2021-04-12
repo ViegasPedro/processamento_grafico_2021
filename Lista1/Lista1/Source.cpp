@@ -85,10 +85,10 @@ int main()
 	GLuint shaderID = setupShader();
 
 	// Gerando um buffer simples, com a geometria de um triângulo
-	GLuint VAO = setupGeometry();
+	//GLuint VAO = setupGeometry();
 
 	//VAO usado no primeiro exercicio
-	//GLuint VAOexec1 = setupGeometryExercicio1();
+	GLuint VAOexec1 = setupGeometryExercicio1();
 
 	// Enviando a cor desejada (vec4) para o fragment shader
 	// Utilizamos a variáveis do tipo uniform em GLSL para armazenar esse tipo de info
@@ -102,8 +102,8 @@ int main()
 	while (!glfwWindowShouldClose(window))
 	{
 
-		whileOriginal(shaderID, VAO, colorLoc);
-		//whileExercicio1(shaderID, VAOexec1, colorLoc);
+		//whileOriginal(shaderID, VAO, colorLoc);
+		whileExercicio1(shaderID, VAOexec1, colorLoc);
 
 		// Troca os buffers da tela
 		glfwSwapBuffers(window);
