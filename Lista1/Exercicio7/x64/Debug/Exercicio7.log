@@ -1,3 +1,5 @@
-﻿  Source.cpp
-C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\Exercicio7\Source.cpp(215,2): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-  Exercicio7.vcxproj -> C:\Users\pedro\Documents\Pedro Viegas\PG2021-1\Lista1\x64\Debug\Exercicio7.exe
+﻿  glad.c
+  Source.cpp
+C:\Users\pedro\Documents\Pedro Viegas\Processamento grafico\Lista1\Exercicio7\Source.cpp(215,2): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Exercicio7.vcxproj -> C:\Users\pedro\Documents\Pedro Viegas\Processamento grafico\Lista1\x64\Debug\Exercicio7.exe
