@@ -269,11 +269,6 @@ void SceneManager::setupScene()
 {
 	Sprite* obj = new Sprite;
 	//cenario
-	//backgrounds.push_back(new Background(450.0f, 210.0f, 900.0f, 420.0f, loadTexture("_01_ground.png"), shader,0.0f));
-	//cenario
-	//backgrounds.push_back(new Background(450.0f, 390.0f, 900.0f, 600.0f, loadTexture("_02_trees and bushes.png"), shader, 0.05f));
-	//cenario
-	//backgrounds.push_back(new Background(450.0f, 390.0f, 900.0f, 600.0f, loadTexture("_03_distant_trees.png"), shader, 0.0f));
 	backgrounds.push_back(new Background(450.0f, 300.0f, 900.0f, 600.0f, loadTexture("sky.png"), shader, 0.0f));
 	backgrounds.push_back(new Background(450.0f, 300.0f, 900.0f, 600.0f, loadTexture("city.png"), shader, 2.0f));
 	backgrounds.push_back(new Background(1250.0f, 300.0f, 900.0f, 600.0f, loadTexture("city.png"), shader, 2.0f));
